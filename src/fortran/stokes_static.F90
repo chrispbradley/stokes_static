@@ -137,6 +137,8 @@ PROGRAM stokes_static
 
   !INITIALISE OPENCMISS
 
+  STOP
+
   CALL cmfe_Initialise(err)
   CALL cmfe_ErrorHandlingModeSet(CMFE_ERRORS_TRAP_ERROR,err)
   CALL cmfe_Context_Initialise(context,err)
