@@ -8,9 +8,6 @@ endif()
 
 project(Stokes_Static VERSION 1.0 LANGUAGES Fortran C)
 
-message(STATUS "CMAKE_C_COMPILER = '${CMAKE_C_COMPILER}'")
-message(STATUS "CMAKE_Fortran_COMPILER = '${CMAKE_Fortran_COMPILER}'")
-
 find_package(libOpenCMISS 1.0.0 REQUIRED
   COMPONENTS Fortran
 )
